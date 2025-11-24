@@ -2,6 +2,8 @@
 
 Este repositório contém a página HTML `account_deletion.html` utilizada para atender à política de exclusão de conta exigida pelo Google Play.
 
+*Link* https://jesfag-entregas.github.io/account_deletion/
+
 ## Finalidade
 
 A página informa aos usuários do aplicativo **Jesfag Entregas** como solicitar a exclusão de sua conta, detalhando:
