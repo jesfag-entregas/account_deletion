@@ -5,65 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exclusão de Conta - Jesfag Entregas</title>
     <style>
-      body { font-family: Arial, sans-serif; margin: 2em; background: #fafafa; color: #222; }
-      h1 { color: #d2691e; }
-      .steps { margin: 1em 0; }
-      .email { font-weight: bold; color: #1a73e8; }
-      .data-section { margin-top: 2em; }
-      ul { margin: 0.5em 0 0.5em 2em; }
+      body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        margin: 0;
+        background: #f6f7fb;
+        color: #222;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .container {
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 2px 16px 0 #0001;
+        padding: 2.5em 2em 2em 2em;
+        margin-top: 2em;
+        max-width: 480px;
+        width: 100%;
+      }
+      .logo {
+        display: block;
+        margin: 0 auto 1.5em auto;
+        max-width: 120px;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px #0002;
+        border: 3px solid #fff;
+        background: #fff;
+      }
+      h1 {
+        color: #d2691e;
+        text-align: center;
+        font-size: 1.7em;
+        margin-bottom: 0.7em;
+      }
+      .steps {
+        margin: 1.5em 0;
+      }
+      .steps ol {
+        padding-left: 1.2em;
+      }
+      .email {
+        font-weight: bold;
+        color: #1a73e8;
+        word-break: break-all;
+      }
+      .data-section {
+        margin-top: 2.2em;
+      }
+      .data-section h2 {
+        color: #444;
+        font-size: 1.15em;
+        margin-bottom: 0.7em;
+      }
+      ul {
+        margin: 0.5em 0 0.5em 1.5em;
+      }
+      li {
+        margin-bottom: 0.7em;
+        line-height: 1.6;
+      }
+      hr {
+        margin: 2.5em 0 1em 0;
+        border: none;
+        border-top: 1px solid #eee;
+      }
+      small {
+        display: block;
+        text-align: center;
+        color: #888;
+        margin-bottom: 1em;
+      }
     </style>
   </head>
   <body>
-    <img
-      class="logo"
-      src="https://avatars.githubusercontent.com/u/213960748?s=200&v=4"
-      alt="Logo JESFAG Entregas"
-      style="display:block;margin:0 auto 1em auto;max-width:120px;"
-    />
-    <h1>Exclusão de Conta - Jesfag Entregas</h1>
-    <p>
-      Se você deseja excluir sua conta do aplicativo
-      <strong>Jesfag Entregas</strong>, siga as etapas abaixo:
-    </p>
-    <div class="steps">
-      <ol>
-        <li>
-          Envie um e-mail para
-          <span class="email">jesfagentregas17@gmail.com</span> com o assunto
-          <strong>Exclusão de Conta</strong>.
-        </li>
-        <li>
-          No corpo do e-mail, informe o endereço de e-mail utilizado para login
-          no app e, se desejar, o motivo da exclusão (opcional).
-        </li>
-        <li>
-          Nossa equipe irá processar sua solicitação e excluir sua conta em até
-          7 dias úteis. Você receberá uma confirmação por e-mail.
-        </li>
-      </ol>
+    <div class="container">
+      <img
+        class="logo"
+        src="https://avatars.githubusercontent.com/u/213960748?s=200&v=4"
+        alt="Logo JESFAG Entregas"
+      />
+      <h1>Exclusão de Conta - Jesfag Entregas</h1>
+      <p style="text-align:center; font-size:1.08em;">
+        Se você deseja excluir sua conta do aplicativo
+        <strong>Jesfag Entregas</strong>, siga as etapas abaixo:
+      </p>
+      <div class="steps">
+        <ol>
+          <li>
+            Envie um e-mail para
+            <span class="email">jesfagentregas17@gmail.com</span> com o assunto
+            <strong>Exclusão de Conta</strong>.
+          </li>
+          <li>
+            No corpo do e-mail, informe o endereço de e-mail utilizado para
+            login no app e, se desejar, o motivo da exclusão (opcional).
+          </li>
+          <li>
+            Nossa equipe irá processar sua solicitação e excluir sua conta em
+            até 7 dias úteis. Você receberá uma confirmação por e-mail.
+          </li>
+        </ol>
+      </div>
+      <div class="data-section">
+        <h2>O que acontece com seus dados?</h2>
+        <ul>
+          <li>
+            <strong>Dados excluídos:</strong> Todos os dados pessoais vinculados
+            à sua conta (nome, e-mail, foto de perfil, histórico de entregas,
+            localização, etc.) serão removidos de nossos servidores.
+          </li>
+          <li>
+            <strong>Dados mantidos:</strong> Dados anonimizados e registros
+            obrigatórios para fins legais e de auditoria podem ser mantidos
+            conforme exigido por lei.
+          </li>
+          <li>
+            <strong>Período de armazenamento:</strong> Após a solicitação, os
+            dados pessoais serão excluídos em até 7 dias úteis. Dados
+            anonimizados podem ser mantidos por tempo indeterminado para fins
+            estatísticos.
+          </li>
+        </ul>
+      </div>
+      <p style="text-align:center;">
+        Se tiver dúvidas, entre em contato pelo e-mail acima.
+      </p>
+      <hr />
+      <small>Jesfag Entregas</small>
     </div>
-    <div class="data-section">
-      <h2>O que acontece com seus dados?</h2>
-      <ul>
-        <li>
-          <strong>Dados excluídos:</strong> Todos os dados pessoais vinculados à
-          sua conta (nome, e-mail, foto de perfil, histórico de entregas,
-          localização, etc.) serão removidos de nossos servidores.
-        </li>
-        <li>
-          <strong>Dados mantidos:</strong> Dados anonimizados e registros
-          obrigatórios para fins legais e de auditoria podem ser mantidos
-          conforme exigido por lei.
-        </li>
-        <li>
-          <strong>Período de armazenamento:</strong> Após a solicitação, os
-          dados pessoais serão excluídos em até 7 dias úteis. Dados anonimizados
-          podem ser mantidos por tempo indeterminado para fins estatísticos.
-        </li>
-      </ul>
-    </div>
-    <p>Se tiver dúvidas, entre em contato pelo e-mail acima.</p>
-    <hr />
-    <small>Jesfag Entregas</small>
   </body>
 </html>
